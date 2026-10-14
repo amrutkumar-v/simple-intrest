@@ -1,9 +1,10 @@
+import sys
 def simple_interest(principal,interest,time):
     return (principal*interest*time)/100
 
 if __name__ == "__main__":
-    p = int(input("Enter Principal Amount: "))
-    r = float(input("Enter Interest Rate: "))
-    t = int(input("Enter Time (in years): "))
+    p = float(sys.avgv[1])
+    r = float(sys.avgv[2])
+    t = float(sys.avgv[3])
     
     print("Simple Interest = ",simple_interest(p,r,t))

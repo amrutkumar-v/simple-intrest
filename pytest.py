@@ -1,8 +1,10 @@
-import sys
 from simpleintrest import simple_interest
 
-def test_SI():
-    assert simple_interest(2000,6,10) == 1200
+def test_si_1():
+    assert simple_interest(10000,5,2)==1000
     
-def test_SIZERO():
-    assert simple_interest(0,10,1) == 0
+def test_si_2():
+    assert simple_interest(20000,10,2)==4000
+    
+def test_si_3():
+    assert simple_interest(100000,5,3)==15000
