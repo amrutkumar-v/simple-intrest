@@ -1,3 +1,4 @@
+import sys
 from simpleintrest import simple_interest
 
 def test_SI():
